@@ -11,6 +11,7 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import ContactList from '../../components/ContactList/ContactList';
 import Loader from '../../components/Loader/Loader';
 import Error from '../../components/Error/Error';
+import { selectNameFilter } from '../../redux/filters/selectors';
 import s from './ContactsPage.module.css';
 
 export default function ContactsPage() {
