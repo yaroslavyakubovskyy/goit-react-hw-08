@@ -5,7 +5,7 @@ export default function HomePage() {
     <>
       <title>Welcome</title>
 
-      <h1 style={s.title}>Create your Phonebook with me</h1>
+      <h1 className={s.title}>Create your Phonebook with me</h1>
     </>
   );
 }

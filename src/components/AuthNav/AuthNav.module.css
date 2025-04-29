@@ -1,8 +1,13 @@
 .link {
   display: inline-block;
   text-decoration: none;
-  padding: 12px;
+  padding: 8px;
   font-weight: 700;
-  color: #fdf6d3;
+  margin-left: 8px;
+  color: #4d5ae5;
   font-size: 24px;
+  &:hover,
+  focus {
+    color: #404bbf;
+  }
 }

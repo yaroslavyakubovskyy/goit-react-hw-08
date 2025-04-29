@@ -13,10 +13,7 @@ const ContactForm = () => {
       .max(50, 'Too long Name')
       .required('This field is required'),
     number: Yup.string()
-      .matches(
-        /^\d{2}-\d{6}-\d{6}-\d{1}$/,
-        'The number format xx-xxxxxx-xxxxxx-x'
-      )
+      .matches(/^\d{2}-\d{3}-\d{3}$/, 'The number format must be xx-xxx-xxx')
       .required('This field is required'),
   });
 
